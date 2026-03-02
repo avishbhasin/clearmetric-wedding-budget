@@ -99,6 +99,7 @@ st.markdown("---")
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("## Your Wedding Details")
+    st.button("🔄 Update Results", use_container_width=True)
 
     total_budget = st.number_input(
         "Total Wedding Budget ($)",
@@ -106,7 +107,6 @@ with st.sidebar:
         min_value=1_000,
         max_value=500_000,
         step=1_000,
-        format="%d",
     )
     num_guests = st.number_input(
         "Number of Guests",
@@ -114,7 +114,6 @@ with st.sidebar:
         min_value=10,
         max_value=500,
         step=1,
-        format="%d",
     )
     wedding_region = st.selectbox(
         "Wedding Region",
@@ -132,7 +131,6 @@ with st.sidebar:
         min_value=50,
         max_value=500,
         step=25,
-        format="%d",
         help="National average ~$250. Affects food/drink benchmark.",
     )
     whos_paying = st.selectbox(
@@ -146,7 +144,6 @@ with st.sidebar:
         min_value=0,
         max_value=200_000,
         step=1_000,
-        format="%d",
     )
 
     st.markdown("### Budget Allocation")
