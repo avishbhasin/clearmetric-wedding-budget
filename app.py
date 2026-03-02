@@ -369,7 +369,7 @@ st.markdown("""
         ✓ Vendor Tracker — quoted price, deposits, balance, due dates<br>
         ✓ How To Use guide<br>
     </p>
-    <a href="https://clearmetric.gumroad.com/l/wedding-budget-planner" target="_blank">
+    <a href="https://clearmetric.gumroad.com/l/wedding-budget" target="_blank">
         Get It on Gumroad — $14.99 →
     </a>
 </div>
@@ -388,13 +388,13 @@ with cx2:
     st.markdown("""
     **🚗 Car Affordability** — $9.99
     20/4/10 rule, total cost of ownership.
-    [Get it →](https://clearmetric.gumroad.com/l/car-affordability-calculator)
+    [Get it →](https://clearmetric.gumroad.com/l/car-affordability)
     """)
 with cx3:
     st.markdown("""
     **🔥 FIRE Calculator** — $14.99
     Find your FIRE number, scenario comparison.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/fire-calculator)
     """)
 
 # Footer
